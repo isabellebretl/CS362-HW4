@@ -3,5 +3,5 @@
 # Date: 04.30.2021
 # Description: calculates the volume of a cube
 
-def cube(l, w, h):
+def calcVol(l, w, h):
     return l * w * h

@@ -3,7 +3,7 @@
 # Date: 04.30.2021
 # Description: takes in a first and last name seperately and outputs them together
 
-def getName():
-    first = input("Enter your first name: ")
-    last = input("Enter your last name: ")
+def printName(first, last):
     print("Full name: " + first + " " + last)
+    name = first + " " + last
+    return name
